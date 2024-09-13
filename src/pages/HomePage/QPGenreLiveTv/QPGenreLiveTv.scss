@@ -1,15 +1,15 @@
-@use '../../styles/global.scss' as *;
-@use '../../styles/partials/mixins' as *;
+@use '../../../styles/global.scss' as *;
+@use '../../../styles/partials/mixins' as *;
 
    
-    .streaming {
+    .genre {
        // margin: 20px 210px;
        display: flex;
        margin: 20px 75px 20px 70px;
        background-color: $color-card-grey;
        border-radius: 6px;
        padding: 31px;
-       height: 60vh;
+       height: 70vh;
         flex-direction: column;
         align-items: center;
 
@@ -21,7 +21,8 @@
 
         &__answer-list {
             display: flex;
-            gap: 80px;
+            flex-direction: column;
+            gap: 10px;
             padding: 0;
             margin-top: 20px;
         }
@@ -29,15 +30,19 @@
         &__answer-item {
             display: flex;
             list-style: none;
-            height: 100px;
-            width: 100px;
-            align-self: center;
+            height: 60px;
+            width: 400px;
+            justify-content: center;
+            align-items: center;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding:10px;
 
             &--selected {
                 background-color: rgba($color-telus-green, 0.3); 
+            }
+            &--selected-priority {
+                background-color: rgba($color-telus-purple, 0.3); 
             }
         }
 

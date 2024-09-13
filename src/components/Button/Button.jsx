@@ -1,12 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
-export function Button({ className, type, text, onClick }) {
-    const navigate = useNavigate();
-    const handleClick = () => {
-        console.log(onClick);
-        navigate(`${onClick}`);
-    }
-    
+export function Button({ className, type, text, handleClick }) {
     return (
         <button
         className={className}
