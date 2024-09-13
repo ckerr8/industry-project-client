@@ -63,17 +63,17 @@
 
     &__btn {
         max-width: 192px;
-        background-color: #2E073F;
-        color: white;
+        background-color: #FFFFFF;
+        color: forestgreen;
         font-weight: 400;
-        text-transform: uppercase;
         border-radius: 1.25rem;
-        border: none;
-        padding: 8px 24px;
+        border: .125rem solid transparent;
+        padding: 0.7rem 1.5rem 0.5rem 1.5rem;
 
         &:hover {
-            background-color: #8FD14F;
-            transition: 0.3s ease-in-out;
+            background-color: #FFFFFF;
+            border-color: forestgreen;
+            transition: border-color 0.3s ease-in-out;
         }
     }
 }
