@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./QPLiveVsStream.scss"
+import { Button } from "../../components/Button/Button";
 
 export default function QPLiveVsStream({ results }) {
     const navigate = useNavigate();
@@ -9,7 +10,7 @@ export default function QPLiveVsStream({ results }) {
         navigate("/");
     }
     return (
-        <>
+        <div className="quiz-container">
             <form className="live-stream__form" onSubmit={submitHandler}>
                 <h1>What percentage of Live TV vs Streaming do you consume?</h1>
                 <div className="range-cont">
@@ -17,8 +18,8 @@ export default function QPLiveVsStream({ results }) {
                     <input type="range" name="percentStream" id="percent-slider" />
                     <h2>Streaming</h2>
                 </div>
-                <button className="next-button" type="submit">NEXT</button>
+                <Button className="next-button" type="submit" text="NEXT" onClick="/streaming" />
             </form>
-        </>
+        </div>
     )
 }

@@ -5,11 +5,11 @@ function NavBar() {
 
   return (
    <div className="nav-bar">
-        <span className="page-nav selected-page">Home </span>
+        <span className=" selected-page">Home </span>
         <img className="arrow-icon" src={arrowRight}/>
-        <span className="page-nav selected-page">TV & Entertainment </span>
+        <span className=" selected-page">TV & Entertainment </span>
         <img className="arrow-icon" src={arrowRight}/>
-        <span className="page-nav ">What to Watch </span>
+        <span className="current-page ">What to Watch </span>
    </div>
   )
 }

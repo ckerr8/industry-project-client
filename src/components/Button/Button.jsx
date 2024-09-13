@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 export function Button({ className, type, text, onClick }) {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate({onClick});
+        console.log(onClick);
+        navigate(`${onClick}`);
     }
     
     return (

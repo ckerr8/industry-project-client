@@ -1,5 +1,6 @@
-@use '../../styles/partials/variables.scss' as *;
+// @use '../../styles/partials/variables.scss' as *;
 @use '../../styles/partials/fonts.scss' as *;
+@use '../../styles/partials/mixins.scss' as *;
 
 #percent-slider {
     -webkit-appearance: none;
@@ -16,6 +17,10 @@
     width: 12px;
     background-color: $color-telus-green;
     border-radius: 50%;
+}
+
+.quiz-container{
+    @include quiz-body;
 }
 
 .range-cont {
