@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import data from "../../data/genres.json" 
 import { useState } from 'react';
 import { Button } from '../../components/Button/Button';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function QPGenreLiveTv() {
   const location = useLocation();
@@ -26,6 +27,11 @@ function QPGenreLiveTv() {
 
   return (
     <>
+        <HelmetProvider>
+        <Helmet>
+            <title>Quiz - Genre</title>
+        </Helmet>
+        </HelmetProvider>
         <section className='genre'>
         <h1 className='genre__question-title'>Which of the following genres do you prefer?</h1>
         <p className='genre__question-description'>Please select your preferred genres. Click once on a show to indicate you like it, and double-click to mark it as a must-watch for you! </p>
