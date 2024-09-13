@@ -23,7 +23,8 @@ function Results() {
             
             {recommendedPackages.map((pkg, index) => (
                 <div key={index} className='results__package'>
-                    <h2 className='results__package--name'>{pkg.name}</h2>
+                    <h2 className='results__package--name'>Theme: {pkg.name}</h2>
+                    <h4 className='results__package--items'> This package inludes:</h4>
                     <div className='results__shows--grid'>
                         {pkg.shows.map((show, showIndex) => (
                             <div key={showIndex} className='results__shows--card'>
@@ -44,6 +45,11 @@ function Results() {
                 <p>Based on your selections, we recommend the above TV packages. 
                 These packages include the shows you've indicated interest in, as well as other shows you might enjoy.</p>
                 <button className='results__btn'>Re-generate results</button>
+            </div>
+            <div>
+                <h2 className="results__pkg">Select Your Package</h2>
+                <img className="results__pkg--items" src="../../src/assets/images/bundles-prices.png"></img>
+                <img className="results__pkg--items streamplus" src="../../src/assets/images/stream+.png"></img>
             </div>
         </section>
     );

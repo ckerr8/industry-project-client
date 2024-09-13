@@ -10,7 +10,7 @@ export function Hero() {
     const navigate = useNavigate();
 
     const handleSubmit = () => {
-        navigate('/livevsstream');
+        navigate('/live-vs-stream');
       }
 
     return (
