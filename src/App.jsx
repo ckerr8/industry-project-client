@@ -17,7 +17,7 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/livevsstream" element={<QPLiveVsStream />} />
+          <Route path="/live-vs-stream" element={<QPLiveVsStream />} />
           <Route path="/results" element={<Results />} />
           <Route path="/streaming" element={< QPStreaming/>} />
           <Route path="/genre" element={< QPGenreLiveTv/>} />
