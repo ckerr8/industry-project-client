@@ -1,11 +1,17 @@
 import { useCarousel } from "../../hooks/useCarousel";
 import { Button } from "../Button/Button.jsx";
+import { useNavigate } from 'react-router-dom';
 
 import "./Hero.scss";
 
 export function Hero() {
     const { currentIndex, images } = useCarousel();
     const { src, alt } = images[currentIndex];
+    const navigate = useNavigate();
+
+    const handleSubmit = () => {
+        navigate('/livevsstream');
+      }
 
     return (
         <section className="hero">
@@ -21,7 +27,7 @@ export function Hero() {
                         Unlock Your Personalized Channel Bundle!
                     </h2>
 
-                    <Button className="buttons hero__btn" text="TAKE THE QUIZ NOW" onClick="/livevsstream" />
+                    <Button className="buttons hero__btn" text="TAKE THE QUIZ NOW" handleClick={handleSubmit} />
                 </div>
 
                 <div className="hero__carousel">

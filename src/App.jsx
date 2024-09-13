@@ -7,7 +7,8 @@ import "./styles/global.scss";
 import QPLiveVsStream from './pages/QPLiveVsStream/QPLiveVsStream';
 import Results from './pages/Results/Results'
 import QPStreaming from './pages/QPStreaming/QPStreaming';
-import QPGenreLiveTv from './pages/HomePage/QPGenreLiveTv/QPGenreLiveTv';
+import QPGenreLiveTv from './pages/QPGenreLiveTv/QPGenreLiveTv';
+import QPSpecGenre from './pages/QPSpecGenre/QPSpecGenre';
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
           <Route path="/results" element={<Results />} />
           <Route path="/streaming" element={< QPStreaming/>} />
           <Route path="/genre" element={< QPGenreLiveTv/>} />
+          <Route path="/subgenre" element={< QPSpecGenre/>} />
+          <Route path="/result" element={<Results/>} />
         </Routes>
       <Footer />
     </BrowserRouter>
