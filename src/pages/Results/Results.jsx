@@ -23,14 +23,14 @@ function Results() {
             
             {recommendedPackages.map((pkg, index) => (
                 <div key={index} className='results__package'>
-                    <h2 className='results__package-name'>{pkg.name}</h2>
+                    <h2 className='results__package--name'>{pkg.name}</h2>
                     <div className='results__shows--grid'>
                         {pkg.shows.map((show, showIndex) => (
                             <div key={showIndex} className='results__shows--card'>
                                 <img 
                                     src={show.image} 
                                     alt={show.title} 
-                                    className={`results__shows--image ${flattenedResults.includes(show.title) ? 'results__shows-image--selected' : ''}`} 
+                                    className={`results__shows--image ${flattenedResults.includes(show.title) ? 'results__shows--image-selected' : ''}`} 
                                 />
                                 <p className='results__shows--title'>{show.title}</p>
                             </div>

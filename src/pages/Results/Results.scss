@@ -2,17 +2,17 @@
     box-sizing: border-box;
 }
 
-img {
-    height: 80%;
-    width: 80%;
-}
 
 .results {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     &__package {
-        margin: 1rem;
+        // margin: 1rem;
+        &--name {
+            margin: 1rem 0;
+        }
     }
     &__title {
         display: flex;
@@ -22,14 +22,22 @@ img {
     &__shows {
     display: flex;
     flex-direction: row;
+
+    &--image {
+        height: 10rem;
+        width: 7rem;
+
+    }
     &--card {
-        margin: 1rem;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     &--title {
 
-        padding-bottom: 1rem;
+        padding: 1rem 0;
     }
     
     &--grid {
