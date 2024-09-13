@@ -5,8 +5,6 @@ import HomePage from "../src/pages/HomePage/HomePage";
 import Footer from "../src/components/Footer/Footer";
 import "./styles/global.scss";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 function App() {
 
   return (
