@@ -1,37 +1,14 @@
 .hero {
-    &__carousel-items {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow: hidden;
-    }
-
-    &__carousel-item {
+    &__carousel {
         position: relative;
-        min-width: 100%;
-        height: 100vh;
-        transition: all 0.5s linear;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+        width: 100%;
+        height: 40vh;
+        overflow: hidden;
+
+        &-item {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
-}
-
-.item1{
-    background-image: url("../../assets/images/alien-romulus.png");
-}
-
-.item2 {
-    background-image: url("../../assets/images/beetlejuice.png");
-}
-
-.item3 {
-    background-image: url("../../assets/images/deadpool-wolverine.png");
-}
-
-.item4 {
-    background-image: url("../../assets/images/the-wild-robot.png");
-}
-
-.item5 {
-    background-image: url("../../assets/images/wicked.png");
 }
