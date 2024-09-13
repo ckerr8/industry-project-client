@@ -5,6 +5,7 @@ import HomePage from "../src/pages/HomePage/HomePage";
 import Footer from "../src/components/Footer/Footer";
 import "./styles/global.scss";
 import { Hero } from './components/Hero/Hero';
+import QPLiveVsStream from './pages/QPLiveVsStream/QPLiveVsStream';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Hero />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/livevsstream" element={<QPLiveVsStream />} />
         </Routes>
       <Footer />
     </BrowserRouter>

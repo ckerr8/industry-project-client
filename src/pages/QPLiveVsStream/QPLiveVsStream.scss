@@ -1,0 +1,51 @@
+@use '../../styles/partials/variables.scss' as *;
+@use '../../styles/partials/fonts.scss' as *;
+
+#percent-slider {
+    -webkit-appearance: none;
+    height: 7px;
+    background: grey;
+    border-radius: 5px;
+    background-image: linear-gradient($color-telus-purple, $color-telus-purple);
+    background-repeat: no-repeat;
+}
+
+#percent-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    background-color: $color-telus-green;
+    border-radius: 50%;
+}
+
+.range-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.next-button {
+    width: min-content;
+    background-color: #2E073F;
+    font-family: Helvetica;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 1.25rem;
+    border: none;
+    padding: 1rem 2rem;
+
+    &:hover {
+        background-color: #8FD14F;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+.live-stream__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin: 1rem 0;
+}
