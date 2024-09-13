@@ -7,7 +7,7 @@ import "./styles/global.scss";
 import QPLiveVsStream from './pages/QPLiveVsStream/QPLiveVsStream';
 import Results from './pages/Results/Results'
 import QPStreaming from './pages/QPStreaming/QPStreaming';
-
+import QPGenreLiveTv from './pages/HomePage/QPGenreLiveTv/QPGenreLiveTv';
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/livevsstream" element={<QPLiveVsStream />} />
           <Route path="/results" element={<Results />} />
           <Route path="/streaming" element={< QPStreaming/>} />
-
+          <Route path="/genre" element={< QPGenreLiveTv/>} />
         </Routes>
       <Footer />
     </BrowserRouter>

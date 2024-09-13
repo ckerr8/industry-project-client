@@ -2,12 +2,14 @@ import { useNavigate } from "react-router-dom";
 import "./QPLiveVsStream.scss"
 import { Button } from "../../components/Button/Button";
 
-export default function QPLiveVsStream({ results }) {
+export default function QPLiveVsStream() {
+    const results = [];
     const navigate = useNavigate();
     function submitHandler(e){
         e.preventDefault();
         console.log(e.target.percentStream.value);
-        navigate("/");
+        results.push(e.target.percentStream.value)
+        navigate("/streaming", { state: { results } });
     }
     return (
         <div className="quiz-container">
@@ -18,7 +20,7 @@ export default function QPLiveVsStream({ results }) {
                     <input type="range" name="percentStream" id="percent-slider" />
                     <h2>Streaming</h2>
                 </div>
-                <Button className="next-button" type="submit" text="NEXT" onClick="/streaming" />
+                <Button className="next-button" type="submit" text="NEXT"/>
             </form>
         </div>
     )
