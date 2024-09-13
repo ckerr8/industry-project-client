@@ -1,0 +1,19 @@
+@use '../../styles/global.scss' as *;
+
+.nav-bar{
+    display: flex;
+    padding: 4px 140px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.selected-page{
+    text-decoration: underline;
+}
+
+.arrow-icon{
+    width: 16px;
+    height: 16px;
+    color: grey;
+}

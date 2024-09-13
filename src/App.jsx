@@ -12,8 +12,11 @@ function App() {
     <>
     <BrowserRouter>
     <Header />
+    <div className="quiz-body">
+
     <h1>This is a heading</h1>
     <h2>This is a smaller heading</h2>
+    </div>
     <Routes>
       
       <Route path="/" element={<HomePage />} />
