@@ -1,12 +1,13 @@
-import "../../styles/global.scss";
+import "./Header.scss"
 
 function Header() {
-
   return (
-   <header>
-        <img href="../../assets/images/telus-header.png"></img>
-   </header>
-  )
+    <header>
+      <div>
+        <img src="../../src/assets/images/telus-header.png"></img>
+      </div>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
