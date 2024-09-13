@@ -14,8 +14,12 @@ export function Hero() {
 
                 <div className="hero__heading">
                     <h1 className="hero__header">
-                    Find Your Perfect TV Match And Unlock Your Personalized Channel Bundle!
+                        Find Your Perfect Match.
                     </h1>
+
+                    <h2 className="hero__subheader">
+                        Unlock Your Personalized Channel Bundle!
+                    </h2>
 
                     <Button className="hero__btn" text="Take the quiz now" />
                 </div>
@@ -24,8 +28,7 @@ export function Hero() {
                     <img
                     className="hero__carousel-item"
                     src={src}
-                    alt={alt}
-                    onClick={handleClick} />
+                    alt={alt} />
                 </div>
             </div>
         </section>
