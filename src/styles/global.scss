@@ -4,6 +4,16 @@
 * {
     margin: 0;
     font-family: "Helvetica Neue";
+    max-width: 1280px;
+    box-sizing: border-box;
+}
+
+.quiz-body{
+    margin: 20px 75px;
+    background-color: $color-card-grey;
+    border-radius: 6px;
+    padding: 31px;
+    height: 60vh;
 }
 
 h1{
@@ -30,7 +40,9 @@ h2{
 
 .page-nav{
     font-size: 12px;
+    line-height: 16px;
     font-weight: 500;
+    color: $color-page-nav;
 }
 
 .hero-title{
