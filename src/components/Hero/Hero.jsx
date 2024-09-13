@@ -1,5 +1,5 @@
 import { useCarousel } from "../../hooks/useCarousel";
-import { Button } from "../Button/Button";
+import { Button } from "../Button/Button.jsx";
 
 import "./Hero.scss";
 
