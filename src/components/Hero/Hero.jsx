@@ -27,7 +27,7 @@ export function Hero() {
                         Unlock Your Personalized Channel Bundle!
                     </h2>
 
-                    <Button className="buttons hero__btn" text="TAKE THE QUIZ NOW" handleClick={handleSubmit} />
+                    <Button className="buttons hero__btn" text="Take the Quiz Now" handleClick={handleSubmit} />
                 </div>
 
                 <div className="hero__carousel">
