@@ -1,11 +1,13 @@
 import './QPGenreLiveTv.scss';
+import { useNavigate } from 'react-router-dom';
 import { useLocation } from "react-router-dom";
-import data from "../../../data/genres.json" 
+import data from "../../data/genres.json" 
 import { useState } from 'react';
-import { Button } from '../../../components/Button/Button';
+import { Button } from '../../components/Button/Button';
 
 function QPGenreLiveTv() {
   const location = useLocation();
+  const navigate = useNavigate();
   const [selectedGenres, setSelectedGenres] = useState([]);
   const { results } = location.state || { results: [] };
 
@@ -19,8 +21,7 @@ function QPGenreLiveTv() {
 
   const handleSubmit = () => {
     results.push(selectedGenres);
-    console.log(results);
-    navigate('/subGenre',  { state: { results } , genres: {selectedGenres}});
+    navigate('/subgenre',  { state: { results, selectedGenres }});
   }
 
   return (
@@ -38,7 +39,7 @@ function QPGenreLiveTv() {
             </li>
             ))}
         </ul>
-        <Button className='genre__button' type='submit' text='Next' onClick={handleSubmit}/>
+        <Button className='genre__button' type='submit' text='Next' handleClick={handleSubmit}/>
     </section>
     </>
   )

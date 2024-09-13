@@ -1,5 +1,5 @@
-@use '../../../styles/global.scss' as *;
-@use '../../../styles/partials/mixins' as *;
+@use '../../styles/global.scss' as *;
+@use '../../styles/partials/mixins' as *;
 
    
     .genre {
@@ -40,9 +40,6 @@
 
             &--selected {
                 background-color: rgba($color-telus-green, 0.3); 
-            }
-            &--selected-priority {
-                background-color: rgba($color-telus-purple, 0.3); 
             }
         }
 
