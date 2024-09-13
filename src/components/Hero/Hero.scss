@@ -30,4 +30,37 @@
             z-index: 3;
         }
     }
+
+    &__heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem;
+        z-index: 4;
+    }
+
+    &__header {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &__btn {
+        width: 25%;
+        background-color: #2E073F;
+        color: white;
+        border-radius: 1.25rem;
+        border: none;
+        padding: 1rem 0;
+
+        &:hover {
+            background-color: #8FD14F;
+            transition: 0.3s ease-in-out;
+        }
+    }
 }
