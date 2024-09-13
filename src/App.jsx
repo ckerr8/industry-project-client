@@ -5,7 +5,9 @@ import HomePage from "../src/pages/HomePage/HomePage";
 import Footer from "../src/components/Footer/Footer";
 import "./styles/global.scss";
 import QPLiveVsStream from './pages/QPLiveVsStream/QPLiveVsStream';
+import Results from './pages/Results/Results'
 import QPStreaming from './pages/QPStreaming/QPStreaming';
+
 
 function App() {
 
@@ -15,7 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/livevsstream" element={<QPLiveVsStream />} />
+          <Route path="/results" element={<Results />} />
           <Route path="/streaming" element={< QPStreaming/>} />
+
         </Routes>
       <Footer />
     </BrowserRouter>

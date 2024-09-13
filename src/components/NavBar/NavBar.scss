@@ -1,15 +1,20 @@
 @use '../../styles/global.scss' as *;
+@use '../../styles/partials/mixins' as *;
 
 .nav-bar{
     display: flex;
     padding: 4px 140px 16px 140px;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 .selected-page{
+    @include page-nav;
     text-decoration: underline;
+}
+
+.current-page{
+    @include page-nav;
 }
 
 .arrow-icon{

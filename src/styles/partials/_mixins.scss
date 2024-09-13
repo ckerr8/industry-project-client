@@ -1,5 +1,13 @@
 @import "./_variables";
 
+@mixin quiz-body{
+        margin: 20px 75px;
+        background-color: $color-card-grey;
+        border-radius: 6px;
+        padding: 31px;
+        height: 40vh;
+}
+
 @mixin selected-text{
     padding: 8px 18px;
     text-shadow:#2a2c2e 0px 0px 1px; 

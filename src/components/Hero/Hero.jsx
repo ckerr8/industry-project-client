@@ -1,5 +1,5 @@
 import { useCarousel } from "../../hooks/useCarousel";
-import { Button } from "../Button/Button";
+import { Button } from "../Button/Button.jsx";
 
 import "./Hero.scss";
 
@@ -21,7 +21,7 @@ export function Hero() {
                         Unlock Your Personalized Channel Bundle!
                     </h2>
 
-                    <Button className="buttons hero__btn" text="TAKE THE QUIZ NOW" />
+                    <Button className="buttons hero__btn" text="TAKE THE QUIZ NOW" onClick="/livevsstream" />
                 </div>
 
                 <div className="hero__carousel">
