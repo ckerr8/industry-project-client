@@ -1,5 +1,6 @@
 import { useCarousel } from "../../hooks/useCarousel";
 import { Button } from "../Button/Button";
+
 import "./Hero.scss";
 
 export function Hero() {
@@ -23,7 +24,8 @@ export function Hero() {
                     <img
                     className="hero__carousel-item"
                     src={src}
-                    alt={alt} />
+                    alt={alt}
+                    onClick={handleClick} />
                 </div>
             </div>
         </section>
