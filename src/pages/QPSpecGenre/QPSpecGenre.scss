@@ -67,16 +67,19 @@
     
         &__button {
             margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            border-radius: 4px;
+            padding: 13px 20px 10px 20px;
+            font-weight: regular;
+            text-transform: uppercase;
+            border-radius: 1.25rem;
             background-color: #4b286d; /* Purple color */
             color: #fff;
             cursor: pointer;
             border: none;
     
             &:hover {
-                background-color: #3d2359; /* Darker purple */
+                background-color: #8FD14F;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
             }
         }
     }
