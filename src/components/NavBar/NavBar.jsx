@@ -9,7 +9,9 @@ function NavBar() {
         <img className="arrow-icon" src={arrowRight}/>
         <span className=" selected-page">TV & Entertainment </span>
         <img className="arrow-icon" src={arrowRight}/>
-        <span className="current-page ">What to Watch </span>
+        <span className="selected-page ">What to Watch </span>
+        <img className="arrow-icon" src={arrowRight}/>
+        <span className="current-page ">Quiz</span>
    </div>
   )
 }
