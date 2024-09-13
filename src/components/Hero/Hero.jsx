@@ -21,7 +21,7 @@ export function Hero() {
                         Unlock Your Personalized Channel Bundle!
                     </h2>
 
-                    <Button className="hero__btn" text="Take the quiz now" />
+                    <Button className="buttons hero__btn" text="TAKE THE QUIZ NOW" />
                 </div>
 
                 <div className="hero__carousel">
