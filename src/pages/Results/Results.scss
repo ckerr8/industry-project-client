@@ -10,12 +10,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  margin: 20px 75px 20px 70px;
+  margin: 20px 70px 20px 70px;
   background-color: $color-card-grey;
   border-radius: 6px;
   padding: 31px;
-  height: 95vh;
+  height: 100%;
   justify-content: flex-start;
   &__package {
     // margin: 1rem;
@@ -33,9 +32,9 @@
     flex-direction: row;
     
     &--image {
-        height: 13rem;
-        width: 10rem;
-        padding: .5rem;
+        height: 14rem;
+        width: 11rem;
+        margin: 2.5rem;
         filter: drop-shadow(#2A2C2E 6px -4px 5px);
         
     }
@@ -44,10 +43,6 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-    }
-
-    &--title {
-      padding: 1rem 0;
     }
 
     &--grid {
