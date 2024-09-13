@@ -49,6 +49,7 @@ function Results() {
             <div>
                 <h2 className="results__pkg">Select Your Package</h2>
                 <img className="results__pkg--items" src="../../src/assets/images/bundles-prices.png"></img>
+                <img className="results__pkg--items streamplus" src="../../src/assets/images/stream+.png"></img>
             </div>
         </section>
     );
