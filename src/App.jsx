@@ -7,8 +7,8 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Hero />
       <Routes>
-        <Hero />
       </Routes>
     </BrowserRouter>
   )
