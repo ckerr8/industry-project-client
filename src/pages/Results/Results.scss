@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 80%;
+    width: 80%;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__package {
+        margin: 1rem;
+    }
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__shows {
+    display: flex;
+    flex-direction: row;
+    &--card {
+        margin: 1rem;
+        
+    }
+
+    &--title {
+
+        padding-bottom: 1rem;
+    }
+    
+    &--grid {
+
+    display: flex;
+    flex-direction: row;
+}
+}
+
+&__description {
+    margin: 1rem;
+    padding: 1rem;
+}
+}
