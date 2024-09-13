@@ -1,13 +1,12 @@
-@use './variables' as *;
-@use './mixins' as *;
-@use './fonts' as *;
+@use './partials/variables.scss' as *;
+@use './partials/fonts.scss' as *;
 
 * {
     margin: 0;
+    font-family: "Helvetica Neue";
 }
 
 h1{
-    font-family: "Helvetica Neue";
     font-size: 36px;
     line-height: 44px;
     font-weight: 300;
@@ -67,7 +66,7 @@ h2{
 }
 
 .learn-more{
-    @extend .hero-text;
+    @extend .subheading;
     color: $color-telus-green;
 }
 
