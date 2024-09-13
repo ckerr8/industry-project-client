@@ -23,7 +23,8 @@ function Results() {
             
             {recommendedPackages.map((pkg, index) => (
                 <div key={index} className='results__package'>
-                    <h2 className='results__package--name'>{pkg.name}</h2>
+                    <h2 className='results__package--name'>Theme: {pkg.name}</h2>
+                    <h4 className='results__package--items'> This package inludes:</h4>
                     <div className='results__shows--grid'>
                         {pkg.shows.map((show, showIndex) => (
                             <div key={showIndex} className='results__shows--card'>
@@ -47,7 +48,7 @@ function Results() {
             </div>
             <div>
                 <h2 className="results__pkg">Select Your Package</h2>
-                <img src="../../src/assets/images/bundles-prices.png"></img>
+                <img className="results__pkg--items" src="../../src/assets/images/bundles-prices.png"></img>
             </div>
         </section>
     );

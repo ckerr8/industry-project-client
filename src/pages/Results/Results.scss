@@ -17,7 +17,9 @@
   height: 100%;
   justify-content: flex-start;
   &__package {
-    // margin: 1rem;
+    &--items {
+        color:#2A2C2E;
+    }
     &--name {
       margin: 1rem 0;
     }
