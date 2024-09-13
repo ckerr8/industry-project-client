@@ -1,0 +1,143 @@
+[
+    {
+        "genre": "Family & Kids",
+        "packages": [
+            {
+                "name": "Family",
+                "shows": [
+                    {
+                        "title": "Motherland Fort Salem",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/2VvrJNv6SAvXurj92XwOWB/8b32ccb73cbc1f93d348ef7d7266f610/Motherland_Poster.jpg"
+                    },
+                    {
+                        "title": "Megaman",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/NW5XtguZGDifY0jrc7BdS/4c0c7157b299cb7c355a83b981d698b6/CHRGD-02.png"
+                    },
+                    {
+                        "title": "Teen Titans Go!",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/vxgcdcxp3wxN0SJ6FnJZx/87512963f203e306993e32cda9e44790/Teen_Titans_Go_Poster.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Disney",
+                "shows": [
+                    {
+                        "title": "Mickey Mouse Hot Diggity Dog Tales",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/5PGQDWCvdXJeMOkJazSyMS/ec7275647066f54c3d0d0ec1e3c23e9d/Mickey_Mouse_Hot_Diggity-Dog_Tales_Poster.jpg"
+                    },
+                    {
+                        "title": "Player Select",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/65ZhhhOUZyI82SoJfzpw7S/054425dc01a92f253d4b6968c883e394/Player_Select_Poster.jpg"
+                    },
+                    {
+                        "title": "DuckTales",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/1vn8eUAyAkCu2MkC8kq8eM/3a4265999b1c9ada7c540fbf466090b9/DisneyChannel-03.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Kids",
+                "shows": [
+                    {
+                        "title": "iCarly",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/rDm1SR8PzT4MjRlS5fri1/d2a60cd14095196a61a8265089c96c01/iCarly_Poster.jpg"
+                    },
+                    {
+                        "title": "Thomas & Friends",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/e4lJJWdw33iz1FhcwXFfZ/c49da45a8beb2193e46393981b85ea93/KidsTime-01-Treehouse_Thomas_Friends_366x550.jpg"
+                    },
+                    {
+                        "title": "Peppa Pig",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/4XN09rTXw4k78QyEpcNezv/778a9a8b97762c24bb070bbbf0ec5079/KidsTime-02-PeppaPig.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "genre": "Sports & Outdoors",
+        "packages": []
+    },
+    {
+        "genre": "Education & Documentary",
+        "packages": []
+    },
+    {
+        "genre": "News",
+        "packages": []
+    },
+    {
+        "genre": "Talk Show & Variety",
+        "packages": [
+            {
+                "name": "Time Shift",
+                "shows": [
+                    {
+                        "title": "The Resident",
+                        "image": " https: //images.ctfassets.net/evnrpfa1vdk4/50Ic2BlKeQCj0tyZePfxzo/d526f268b7161518420e85b46917fbb7/TVPoster_Resident_366_2x.jpg"
+                    },
+                    {
+                        "title": "Brooklyn Nine-Nine",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/47QROpHMY9dCqAD0YtmLwf/3a6525ba183bac04a832afd70fbce9dd/Brooklyn_Nine-Nine.jpg"
+                    },
+                    {
+                        "title": "Modern Family",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/1dBRgMkxri5nKX7YocmeD9/f65e390530cce63a488b7e1485f7d7fd/Global-01-ModernFamily.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Laughs and Cheers",
+                "shows": [
+                    {
+                        "title": "Miracle Workers: Dark Ages",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/3NgeCkZi2YeQHXZb2pkQJY/fbc05a3345752e6dfc7dd0dd1d329291/Miracle_Workers_Poster.jpg"
+                    },
+                    {
+                        "title": "The Daily Show With Trevor Noah",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/76AUTzPhpyklNFql8cgtRo/8de019f2595d3695df6c3fdeedda5e6e/CTVComedy-01-TheDailyShowWithTrevorNoah.jpg"
+                    },
+                    {
+                        "title": "Tacoma FD",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/5uBQXmKq0px5gZb77jhe2b/17faf35a33cbeeb620f51bb72e2eade5/Tacoma_FD_Poster.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Medley",
+                "shows": [
+                    {
+                        "title": "Catfish",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/50bCf0yVcmYoDDTkEr4vND/763f96fece237a708f55571fb5a4d953/Catifish_366_x_550.png"
+                    },
+                    {
+                        "title": "Jersey Shore: Family Vacation",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/6p5iVwSm8qBFeDmXYlbw1L/8dbf1020935d227680686d43f9970a52/Jersey_Shore_366_x_550.png"
+                    },
+                    {
+                        "title": "The Challenge: Spies, Lies & Allies",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/3FdCxzhUQjkdUr6cPNAAip/b9a88826ed808738eecde66a7b62dabd/The_Challenge_366_x_550.png"
+                    }
+                ]
+            },
+            {
+                "name": "Variety",
+                "shows": [
+                    {
+                        "title": "Whitstable Pearl",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/1dcQPADep9Zp39CAdDkL17/46cc7feb4c415ca1c59124cfb2b3d961/AMC_ACRN_WhitstablePearl_S1_poster.jpg"
+                    },
+                    {
+                        "title": "Botched",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/sq83KcdnshLPQYxGcn7kD/19047fcf816c8c211bfc96c54e33b389/eOnline_Telus_PikTV_Botched-S5_366x550.jpg"
+                    },
+                    {
+                        "title": "Temptation Island",
+                        "image": "https://images.ctfassets.net/evnrpfa1vdk4/4SZaKKVULckUHzZ8Up2FFs/640ab19d989f9c8b457f025a8507daec/eOnline_Telus_PikTV_TemptationIsland-S1_366x550.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]
