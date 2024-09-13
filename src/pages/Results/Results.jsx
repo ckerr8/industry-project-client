@@ -43,6 +43,7 @@ function Results() {
 
                 <p>Based on your selections, we recommend the above TV packages. 
                 These packages include the shows you've indicated interest in, as well as other shows you might enjoy.</p>
+                <button className='results__btn'>Re-generate results</button>
             </div>
         </section>
     );
